@@ -1,3 +1,5 @@
-function goodMorning(){
-	console.log("Good morning")
+function goodMorning(person){
+	console.log("Good morning" + person)
 }
+
+goodMorning("Michelle");
